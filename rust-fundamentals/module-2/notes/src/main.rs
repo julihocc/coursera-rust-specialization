@@ -1,9 +1,7 @@
-mod demo;
-// mod loops;
-// mod conditionals;
+mod examples;
 
 fn main() {
-    demo::main()
-    // loops::exec()
-    // conditionals::exec()
+    // examples::demo();
+    // examples::loops();
+    examples::conditionals();
 }
