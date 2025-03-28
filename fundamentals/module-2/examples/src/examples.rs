@@ -33,10 +33,12 @@ pub fn loops() {
 }
 
 pub fn conditionals_with_some() {
-    let maybe = Some(42);
+
+    let maybe: Option<Option<()>> = Some(None);
+    // let maybe = Some(42);
 
     if let Some(number) = maybe {
-        println!("The number is {}", number);
+        println!("The number is {:?}", number);
     }
     else { 
         println!("There is no number!");
