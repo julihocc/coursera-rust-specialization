@@ -31,3 +31,14 @@ pub fn loops() {
         }
     }
 }
+
+pub fn conditionals_with_some() {
+    let maybe = Some(42);
+
+    if let Some(number) = maybe {
+        println!("The number is {}", number);
+    }
+    else { 
+        println!("There is no number!");
+    }
+}
